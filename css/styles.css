@@ -8,8 +8,8 @@ background: #F5F4FA; наша команда
 background: #FFFFFF; основной
 background: #2F303A; футер
 
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif; лого
+font-family: 'Roboto', sans-serif; основной
 */
 :root {
   --primary-text-color: #757575;
@@ -19,6 +19,7 @@ font-family: 'Roboto', sans-serif;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --background-color-main: #ffffff;
   --background-color-second: #f5f4fa;
+  --background-color-footer: #2f303a;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -37,7 +38,6 @@ body {
   line-height: 1.192;
   --black-color: #000000;
   color: var(--black-color);
-
   letter-spacing: 0.03em;
 }
 .logo:hover,
@@ -58,7 +58,6 @@ span.accent {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-
   color: var(--title-text-color);
 }
 .site-nav .link:hover,
@@ -79,11 +78,9 @@ span.accent {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
-
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: var(--white-color);
   background: #2f303a;
 }
@@ -91,12 +88,10 @@ span.accent {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
   color: var(--white-color);
   background-color: var(--accent-color);
 }
@@ -107,7 +102,6 @@ span.accent {
   line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--title-text-color);
 }
 /*  Feature */
@@ -117,16 +111,13 @@ span.accent {
   line-height: 1.167;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: var(--title-text-color);
 }
 .feature-description {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
-
   letter-spacing: 0.03em;
-
   color: var(--primary-text-color);
 }
 /*Service*/
@@ -137,7 +128,6 @@ span.accent {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: var(--white-color);
 }
 /* Team */
@@ -151,7 +141,6 @@ span.accent {
 
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--title-text-color);
 }
 .position {
@@ -165,3 +154,29 @@ span.accent {
   color: var(--primary-text-color);
 }
 /* Footer */
+footer {
+  background-color: var(--background-color-footer);
+}
+
+.address .link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+
+  color: var(--footer-contacts-color);
+}
+
+.address .address-item {
+  color: var(--white-color);
+}
+.subscribe {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+}
