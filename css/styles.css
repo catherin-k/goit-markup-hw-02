@@ -40,15 +40,15 @@ body {
   color: var(--black-color);
   letter-spacing: 0.03em;
 }
+.logo.footer {
+  color: var(--white-color);
+}
 .logo:hover,
 .logo:focus {
   color: var(--accent-color);
 }
 span.accent {
   color: var(--accent-color);
-}
-.logo.link.footer {
-  color: var(--white-color);
 }
 
 /* nav */
@@ -63,7 +63,9 @@ span.accent {
 .site-nav .link:hover,
 .site-nav .link:focus,
 .auth-nav .link:hover,
-.auth-nav .link:focus {
+.auth-nav .link:focus,
+.address .link:hover,
+.address .link:focus {
   color: var(--accent-color);
 }
 
